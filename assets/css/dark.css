@@ -1,0 +1,58 @@
+:root{
+    --mx-width: 1320px;
+    --color-text-body: #60525d;
+    --color-primary: #e974ab;
+    --color-secondary: #fff;
+    --color-banner-morado: #310681;
+    --color-bg-btn: #25eea1;
+    --color-title: #272226;
+    --color-black: #000000;
+    --color-grisclaro: #f6f6f6;
+    --color-primaryclaro: #e9c2d4;
+    --color-secondaryclaro: #a3e4cb;
+    --color-bg-projects: #ecf2f6;
+    --color-banner: #ba2261;
+
+}
+
+body{
+    background-color: var(--color-primary);
+}
+
+.nav__title,
+.banner__btn,
+.banner__btn:hover,
+.project__title,
+.project__tag{
+    color: var(--color-secondary);
+}
+
+.nav__submenu{
+    background-color: var(--color-secondary);
+}
+
+.menu__navbar--fixed,
+.project__content,
+.banner__btn{
+    background-color: var(--color-banner);
+}
+
+.nav__title:hover,
+.banner__btn:hover,
+.nav__title::before,
+.news__description,
+.new__description,
+.project__title:hover,
+.social__img:hover,
+.fleft__subtitle,
+.widget__item,
+.flinks__title {
+    color: var(--color-banner-morado)
+}
+.project__title,
+.project__tag {
+    color: var(--color-secondary);
+}
+.social__img {
+    color: var(--color-banner);
+}
